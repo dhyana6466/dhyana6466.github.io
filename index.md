@@ -7,6 +7,7 @@ title: Dhyana Patel
 📧 dhyanapatel6466@gmail.com  
 📞 636-409-4570  
 🌐 [www.dhyanachess.com](http://www.dhyanachess.com)
+📄 [Download My Resume (PDF)](DhyanaResume.pdf)
 
 ---
 
