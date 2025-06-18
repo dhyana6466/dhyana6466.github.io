@@ -49,12 +49,8 @@ Bachelor of Science in Data Science and Computer Science (Expected May 2026)
 
 ---
 
-## 🏆 Top Achievements
-
-- 🥇 Gold Medal – World Schools Chess Championship  
-- 🥇 1st Place in all categories at the State Level  
-- 🥈 Silver – Asian Schools Chess Championship  
-- 🥉 Bronze – Commonwealth Chess Championship
+## Achievements
+🔗 [View My Achievements](achievements.md)
 
 ---
 
