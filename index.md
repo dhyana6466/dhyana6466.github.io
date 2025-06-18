@@ -3,6 +3,8 @@ layout: default
 title: Dhyana Patel
 ---
 
+<img src="profile.jpg" alt="Dhyana Patel" style="width:150px; border-radius: 50%; display:block; margin: 0 auto 20px;" />
+
 # Dhyana Patel  
 📧 dhyanapatel6466@gmail.com  
 📞 636-409-4570  
