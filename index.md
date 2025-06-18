@@ -3,13 +3,24 @@ layout: default
 title: Dhyana Patel
 ---
 
-<img src="profile.jpg" alt="Dhyana Patel" style="width:150px; border-radius: 50%; display:block; margin: 0 auto 20px;" />
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
 
-# Dhyana Patel  
-📧 dhyanapatel6466@gmail.com  
-📞 636-409-4570  
-🌐 [www.dhyanachess.com](http://www.dhyanachess.com)
-📄 [Download My Resume (PDF)](DhyanaResume.pdf)
+  <div style="flex: 1; min-width: 250px;">
+    
+  # Dhyana Patel  
+  📧 dhyanapatel6466@gmail.com  
+  📞 636-409-4570  
+  🌐 <a href="http://www.dhyanachess.com">www.dhyanachess.com</a>  
+  📄 <a href="DhyanaResume.pdf">Download My Resume (PDF)</a>
+
+  </div>
+
+  <div style="flex-shrink: 0;">
+    <img src="profile.jpg" alt="Dhyana Patel" style="width: 180px; border-radius: 10px;" />
+  </div>
+
+</div>
+
 
 ---
 
