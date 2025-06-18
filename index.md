@@ -11,6 +11,7 @@ title: Dhyana Patel
 📞 636-409-4570  
 🌐 [www.dhyanachess.com](http://www.dhyanachess.com)  
 📄 [Download My Resume (PDF)](DhyanaResume.pdf)
+
 ---
 
 ## 🎯 Profile
@@ -53,6 +54,7 @@ Bachelor of Science in Data Science and Computer Science (Expected May 2026)
 
 ## Achievements
 🔗 [View My Achievements](achievements.md)
+🔗 [View My Projects](projects.md)
 
 ---
 
