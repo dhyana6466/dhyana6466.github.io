@@ -3,73 +3,132 @@ layout: default
 title: Dhyana Patel
 ---
 
-<img src="profile.jpg" alt="Dhyana Patel" style="width:150px; float: right; border-radius: 10px; margin-left: 20px; margin-bottom: 20px;" />
+<style>
+  .tab-container { display: flex; flex-wrap: wrap; margin-bottom: 1em; }
+  .tab-container a {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    color: black;
+    border-radius: 5px;
+  }
+  .tab-container a:hover {
+    background-color: #e0e0e0;
+  }
+  .tab-content {
+    border-top: 2px solid #ccc;
+    padding-top: 1em;
+  }
+</style>
 
-# Dhyana Patel  
+# 👩‍💻 Dhyana Patel
 
-📧 dhyanapatel6466@gmail.com  
-📞 636-409-4570  
-🌐 [www.dhyanachess.com](http://www.dhyanachess.com)  
-📄 [Download My Resume (PDF)](DhyanaResume.pdf)
+Welcome to my professional portfolio! I am a Data Science and Computer Science student at Saint Louis University, and an international chess champion.
 
 ---
 
-## 🎯 Profile
-
-Innovative Data Science and Computer Science student and international chess champion with expertise in strategic decision-making, data-driven insights, and adaptive learning techniques. Proficient in leveraging analytical tools and creative problem-solving to drive meaningful outcomes in dynamic environments. Adept at fostering inclusivity and excellence in team settings.
+<div class="tab-container">
+  <a href="#about">About Me</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#contact">Contact</a>
+</div>
 
 ---
+
+<div id="about" class="tab-content">
+
+## 📌 About Me
+
+I'm a double major in Data Science and Computer Science at Saint Louis University, expected to graduate in May 2026.  
+My background as an international chess champion fuels my ability to think strategically and solve complex problems creatively.  
+I love using data and technology to make an impact in the real world.
+
+</div>
+
+---
+
+<div id="education" class="tab-content">
 
 ## 🎓 Education
 
 **Saint Louis University**  
-Bachelor of Science in Data Science and Computer Science (Expected May 2026)
+Bachelor of Science in Data Science and Computer Science  
+_Expected Graduation: May 2026_  
+Relevant Courses: Data Structures, Machine Learning, Database Systems, Algorithms
+
+</div>
 
 ---
+
+<div id="experience" class="tab-content">
 
 ## 💼 Work Experience
 
-**Intern, Aries HVAC Private Limited**  
-*March 2023 – August 2023*  
-- Streamlined operational efficiency by accurately managing data entry for attendance, courier tracking, and AC movements.  
-- Ensured precision in inward and outward logistics, reducing errors by 20%.  
-- Developed a structured documentation process to optimize resource management.
+**Intern – Aries HVAC Solutions**  
+_May 2024 – July 2024_  
+- Supported daily project coordination and documentation  
+- Gained exposure to HVAC system design, planning, and execution
 
-**Chess Tutor**  
-*January 2022 – Present*  
-- Empowered 15 visually impaired students through tailored chess instruction.  
-- Introduced inclusive teaching techniques, enhancing accessibility.  
-- Increased student performance by 50% in local tournaments.
+</div>
 
 ---
 
-## 🧑‍💼 Leadership Experience
+<div id="projects" class="tab-content">
 
-**Leader, SGFI Chess Team** *(2018 – 2023)*  
-- Led the SGFI chess team, securing 2 silver and 1 gold medal.  
-- Mentored teammates in mastering advanced strategies.  
-- Boosted overall team performance by 30%.
+## 💻 Projects
 
----
+### AI-Powered Job Matching System  
+Used Sentence-BERT to embed and match job postings and resumes using cosine similarity.  
+**Tools**: Python, Pandas, scikit-learn  
+[GitHub Repo](https://github.com/dhyanapatel/ai-job-matching-system)
 
-## Achievements
-🔗 [View My Achievements](achievements.md)
-🔗 [View My Projects](projects.md)
+### Flip Frenzy Game  
+Memory-matching game in Java Swing with MVC structure, images, and timers.  
+**Tools**: Java, OOP, MVC  
+[GitHub Repo](https://github.com/dhyanapatel/flip-frenzy)
 
----
-
-## 🔬 Research
-
-**Research Assistant, Saint Louis University**  
-*September 2024 – Present*  
-- Assisting Prof. Haijun Gong with cybernetic-inspired transcription regulation modeling.  
-- Applying ML, R, and Python to analyze biological datasets.  
-- Co-authoring work for submission to peer-reviewed journals.
+</div>
 
 ---
 
-## 🛠️ Skills
+<div id="skills" class="tab-content">
 
-- **Languages:** English, Hindi, Gujarati  
-- **Technical Tools:** Python, Java, C++, R, MS Office  
-- **Specialized Tools:** ChessBase, Stockfish, PGN Analyzer  
+## 🧠 Skills
+
+- **Languages**: Python, Java, C++, R, SQL  
+- **Frameworks/Tools**: scikit-learn, Firebase, GitHub, Jupyter  
+- **Soft Skills**: Public speaking, strategic thinking, problem-solving  
+
+</div>
+
+---
+
+<div id="achievements" class="tab-content">
+
+## 🏆 Achievements
+
+- World Top 10 Chess Champion (Age Category)  
+- Gujarat State Champion – multiple years  
+- Dean’s List at Saint Louis University  
+- Selected for Google’s Women Techmakers Program
+
+</div>
+
+---
+
+<div id="contact" class="tab-content">
+
+## 📬 Contact
+
+- 📧 Email: dhyanapatel6466@gmail.com  
+- 💼 LinkedIn: [linkedin.com/in/dhyana-patel](https://linkedin.com/in/dhyana-patel)  
+- 🐱 GitHub: [github.com/dhyanapatel](https://github.com/dhyanapatel)  
+- 📄 [Download My Resume (PDF)](DhyanaResume.pdf)
+
+</div>
