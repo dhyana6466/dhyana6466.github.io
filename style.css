@@ -9,16 +9,16 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
-    background-color: #ffffff; /* Pure white background */
-    color: #222222; /* Almost black text */
+    background-color: #85dce5; 
+    color: #222;
     scroll-behavior: smooth;
     line-height: 1.6;
 }
 
-/* NAVBAR */
+/* Navbar */
 nav {
-    background-color: #f9f9f9; /* Light navbar */
-    border-bottom: 1px solid #ddd; /* Soft divider */
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -35,7 +35,7 @@ nav {
   }
   
   .logo {
-    color: #1E90FF;                /* Blue accent */
+    color: #000;
     font-size: 1.5rem;
     font-weight: bold;
   }
@@ -50,62 +50,67 @@ nav {
   }
   
   .nav-links a {
-    color: #222222;
+    color: #222;
     text-decoration: none;
     font-weight: 500;
-    transition: 0.2s ease;
   }
   
   .nav-links a:hover {
-    color: #1E90FF;
-    border-bottom: 2px solid #1E90FF;
+    color: #000;
   }
   
-  /* --- HERO HEADER --- */
+  /* Hero Section */
   .hero {
-    background-color: #eaf4ff;     /* Light blue hero section */
-    color: #1E90FF;
+    background-color: #e6e6d1;
+    color: #000;
     padding: 3rem;
     text-align: center;
   }
   
-  /* --- SECTION STYLING --- */
-  section {
-    padding: 3rem 1rem;
+  /* Content Sections */
+  .content-section {
+    padding: 2rem;
     max-width: 800px;
     margin: auto;
-    background-color: #ffffff;
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
   }
   
   h2 {
-    color: #1E90FF;
+    color: #000;
+    font-weight: 600;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
   }
   
-  /* List styling */
-  ul {
-    list-style: disc;
-    padding-left: 1.5rem;
+  /* Projects */
+  .project {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-title {
+    background-color: #000;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-details {
+    display: none;
     margin-top: 0.5rem;
   }
   
-  /* Links */
   a {
-    color: #1E90FF;
-    text-decoration: none;
+    color: #0000cc;
   }
   
   a:hover {
     text-decoration: underline;
-  }
-  
-  /* Image styling */
-  img {
-    width: 150px;
-    border-radius: 10px;
-    display: block;
-    margin: 1rem 0;
   }
   
   /* Footer */
@@ -115,7 +120,5 @@ nav {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ccc;
   }
-
-

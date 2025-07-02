@@ -14,24 +14,28 @@
             <h1 class="logo">Dhyana Patel</h1>
             <u1 class="nav-links">
                 <!-- Each link jumps to a section below -->
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('education')">Education</a></li>
+                <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#" onclick="showSection('experience')">Experience</a></li>
+                <li><a href="#" onclick="showSection('resume')">Resume</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
             </u1>
         </div>
     </nav>
 
-    <!-- Hero Header -->
-    <header class="hero">
-        <h2>Data Science & Computer Science Student | Chess Champion</h2>
-    </header>
+    <!-- Home -->
+    <section id="home" class="content-section">
+        <header class="hero">
+            <h2>Hi, I'm Dhyana Patel</h2>
+            <h2>Data Science & Computer Science Student | Chess Champion</h2>
+        </header>
+    </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="content-section hidden">
         <h2>About Me</h2>
         <!-- Profile image -->
         <img src="profile.jpg" alt="Dhyana Patel" />
@@ -40,16 +44,16 @@
             I'm also an international chess champion with a passion for teaching, research, and innovation
         </p>
     </section>
-
+        
     <!-- Education Section -->
-    <section id="education">
+    <section id="education" class="content-section hidden">
         <h2>Education</h2>
         <p><strong>Saint Louis University</strong><br/>
         B.S. in Data Science and Computer Science (Expected May 2026)</p>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="content-section hidden">
         <h2>Skills</h2>
         <ul>
             <li>Python, R, Java, C++</li>
@@ -60,17 +64,28 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="content-section hidden">
         <h2>Projects</h2>
-        <ul>
-            <li><strong>AI-Powered Job Matching System</strong> - NLP, cosine similarity with embeddings</li>
-            <li><strong>Flip Frenzy</strong> - Java memory-matching game with MVC architecture</li>
-            <li><strong>County-Level Poverty Forecasting</strong> - ETS/ARIMA models usings R</li>
-        </ul>
+        
+        <div class="project">
+            <button class="project-title" onclick="toggleProject('project1')">AI-Powered Job Matching System</button>
+            <div class="project-details" id="project1">
+                <p>This project uses NLP and cosine similarity to match resume to job postings based on embeddings</p>
+                <a href="https://github.com/dhyana6466/ai-job-matching-system" target="_blank"> View GitHub Repo</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <button class="project-title" onclick="toggleProject('project2')">Flip Frenzy Game</button>
+            <div class="project-details" id="project2">
+                <p>A memory-matching game built in Java using MVC architecture. Tracks best times using serialization</p>
+                <a href="" target="_blank"> View GitHub Repo</a>
+            </div>
+        </div>
     </section>
 
     <!-- Experience Section -->
-    <section id="experience">
+    <section id="experience" class="content-section hidden">
         <h2>Experience</h2>
         <p><strong>Intern, Aries HVAC Private Limited</strong><br/>Mar 2023 - Aug 2023</p>
         <ul>
@@ -85,14 +100,14 @@
     </section>
 
     <!-- Resume Download Section -->
-    <section id="resume">
+    <section id="resume" class="content-section hidden">
         <h2>Resume</h2>
         <!-- Downloadable resume link -->
         <a href="dhyanaresumefinal.pdf" download> Download My Resume</a>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="content-section hidden">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:dhyanapatel6466@gmail.com">dhyanapatel6466@gmail.com</a></p>
         <p>Website: <a href="https://www.dhyanachess.com">www.dhyanachess.com</a></p>
@@ -102,5 +117,7 @@
     <footer>
         <p> 2025 Dhyana Patel</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
