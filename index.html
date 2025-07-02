@@ -4,6 +4,40 @@
     <meta charset="UTF-8" />
     <title>Dhyana Patel</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+        home-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 90vh;
+      padding: 0 10%;
+    }
+
+    .name-section {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .photo-section img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      .home-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .name-section {
+        margin-bottom: 20px;
+      }
+    }
+    </style>
+
 </head>
 <body>
 
@@ -22,15 +56,9 @@
         </ul>
     </nav>
 
-    <!-- Split Home Layout -->
-    <div class="split-home">
-        <!-- Left side: Name -->
-        <div class="left-home">
-            <h1>Dhyana Patel</h1>
-        </div>
-        
-        <!-- Right side: Photo -->
-        <div class="right-home">
+    <div class="home-container">
+        <div class="name-section">Dhyana Patel</div>
+        <div class="photo-section">
             <img src="profile.jpg" alt="Dhyana Patel">
         </div>
     </div>
